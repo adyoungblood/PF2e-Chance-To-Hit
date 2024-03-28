@@ -1,0 +1,21 @@
+{
+  "id": "pf2e-chance-to-hit",
+  "title": "PF2e Chance To Hit",
+  "description": "A simple module which tells you the chance to hit the creature you're targeting.",
+  "authors": [
+    {
+      "name": "Alexander",
+      "discord": "unphusion"
+    }
+  ],
+  "version": "0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": [
+	"scripts/hooks.js",
+	"scripts/data.js",
+	"scripts/chance-to-hit.js"
+  ]
+}
